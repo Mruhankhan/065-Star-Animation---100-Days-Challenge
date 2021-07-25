@@ -1,0 +1,161 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.frame {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    border-radius: 2px;
+    box-shadow: 4px 8px 16px 0 rgba(0,0,0,0.1);
+    overflow: hidden;
+    background:  #4d79ff;
+    color: #333;
+  }
+  
+  .center {
+      top:50%;
+      left:50%;
+    position: absolute;
+    display:flex;
+      align-items:center;
+      justify-content:center;
+  }
+  .class{
+      position:absolute;
+      animation-duration:3s;
+      animation-iteration-count:infinite;
+  }
+  #sq1{
+      width:30vw;
+      height:30vh;
+      border:1px white solid;
+      animation-name:anim1;
+  }
+  
+  @keyframes anim1{
+      50%{
+          transform:rotate(180deg);
+          border-radius:30%;
+          height:4vh;
+      }
+  }
+  
+  #sq2{
+      width:30vw;
+      height:30vh;
+      border:1px white solid;
+      animation-name:anim2;
+  }
+  
+  @keyframes anim2{
+      50%{
+          transform:rotate(160deg);
+          border-radius:30%;
+          height:4vh
+      }
+  }
+  
+  #sq3{
+      width:30vw;
+      height:30vh;
+      border:1px white solid;
+      animation-name:anim3;
+  }
+  
+  @keyframes anim3{
+      50%{
+          transform:rotate(140deg);
+          border-radius:30%;
+          height:4vh
+      }
+  }
+  
+  #sq4{
+      width:30vw;
+      height:30vh;
+      border:1px white solid;
+      animation-name:anim4;
+  }
+  
+  @keyframes anim4{
+      50%{
+          transform:rotate(120deg);
+          border-radius:30%;
+          height:4vh;
+      }
+  }
+  
+  #sq4{
+      width:30vw;
+      height:30vh;
+      border:1px white solid;
+      animation-name:anim4;
+  }
+  
+  @keyframes anim4{
+      50%{
+          transform:rotate(100deg);
+          border-radius:30%;
+          height:4vh;
+      }
+  }
+  #sq5{
+      width:30vw;
+      height:30vh;
+      border:1px white solid;
+      animation-name:anim5;
+  }
+  
+  @keyframes anim5{
+      50%{
+          transform:rotate(80deg);
+          border-radius:30%;
+          height:4vh;
+      }
+  }
+  
+  #sq6{
+      width:30vw;
+      height:30vh;
+      border:1px white solid;
+      animation-name:anim6;
+  }
+  
+  @keyframes anim6{
+      50%{
+          transform:rotate(60deg);
+          border-radius:30%;
+          height:4vh;
+      }
+  }
+  
+  #sq7{
+      width:30vw;
+      height:30vh;
+      border:1px white solid;
+      animation-name:anim7;
+  }
+  
+  @keyframes anim7{
+      50%{
+          transform:rotate(40deg);
+          border-radius:30%;
+          height:4vh;
+      }
+  }
+  #sq8{
+      width:30vw;
+      height:30vh;
+      border:1px white solid;
+      animation-name:anim8;
+  }
+  
+  @keyframes anim8{
+      50%{
+          transform:rotate(40deg);
+          border-radius:30%;
+          height:4vh;
+      }
+  }
+  
