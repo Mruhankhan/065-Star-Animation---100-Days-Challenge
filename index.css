@@ -10,11 +10,6 @@ h1{
     color:red;
 }
 
-/* THESE ARE CSS COMMENTS*/
-/* THESE ARE CSS COMMENTS*/
-/* THESE ARE CSS COMMENTS*/
-/* THESE ARE CSS COMMENTS*/
-
 .frame {
     position: absolute;
     width: 100vw;
@@ -42,7 +37,6 @@ h1{
       align-items:center;
       justify-content:center;
        animation-name:h1ColorChange;
-         animation-name:h1Spin;
        animation-duration:3s;
       animation-iteration-count:infinite;
   }
@@ -185,48 +179,46 @@ h1{
   }
   
   @keyframes h1ColorChange{
-      10%{h1ColorChange
+      10%{
           color:red;
-          transform:translate(2.5);
+          transform:scale(0.5)
       }
       20%{
           color:blue;
+           transform:scale(0.75)
       }
       30%{
           color:green;
-          
       }
       40%{
-          
+              transform:scale(1.25)
         color:yellow;
       }
       50%{
+          transform:scale(1.75)
           color:pink;
       }
       60%{
+           transform:scale(2)
           color:black;
           
       }
       70%{
+            transform:scale(2.2)
           color:white;
-          
       }
       80%{
+           transform:scale(2.5)
           color:purple;
       }
       90%{
+            transform:scale(3)
+        
           color:brown;
       }
       100%{
+            transform:scale(3.5)
           color:Aqua;
       }
   }
   
-  @keyframes h1Spin{
-      from{
-        transform:rotateY(0deg);  
-      }
-      to{
-       transform:rotateX(360deg);  
-      }
-  }
