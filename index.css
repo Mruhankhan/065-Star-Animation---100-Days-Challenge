@@ -1,7 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap');
+
 *{
     margin: 0%;
     padding: 0%;
 }
+h1{
+    font-family: 'Tilt Prism', cursive;
+    font-size:50px;
+    color:red;
+}
+
+/* THESE ARE CSS COMMENTS*/
+/* THESE ARE CSS COMMENTS*/
+/* THESE ARE CSS COMMENTS*/
+/* THESE ARE CSS COMMENTS*/
+
 .frame {
     position: absolute;
     width: 100vw;
@@ -9,7 +22,7 @@
     border-radius: 2px;
     box-shadow: 4px 8px 16px 0 rgba(0,0,0,0.1);
     overflow: hidden;
-    background:  #4d79ff;
+    background:  lightgray;
     color: #333;
   }
   
@@ -21,6 +34,18 @@
       align-items:center;
       justify-content:center;
   }
+    h1 {
+      top:0%;
+      left:20vw;
+    position: absolute;
+    display:flex;
+      align-items:center;
+      justify-content:center;
+       animation-name:h1ColorChange;
+         animation-name:h1Spin;
+       animation-duration:3s;
+      animation-iteration-count:infinite;
+  }
   .class{
       position:absolute;
       animation-duration:3s;
@@ -29,7 +54,7 @@
   #sq1{
       width:30vw;
       height:30vh;
-      border:1px white solid;
+      border:1px blue solid;
       animation-name:anim1;
   }
   
@@ -44,7 +69,7 @@
   #sq2{
       width:30vw;
       height:30vh;
-      border:1px white solid;
+      border:1px red solid;
       animation-name:anim2;
   }
   
@@ -59,7 +84,7 @@
   #sq3{
       width:30vw;
       height:30vh;
-      border:1px white solid;
+      border:1px green solid;
       animation-name:anim3;
   }
   
@@ -89,7 +114,7 @@
   #sq4{
       width:30vw;
       height:30vh;
-      border:1px white solid;
+      border:1px black solid;
       animation-name:anim4;
   }
   
@@ -118,7 +143,7 @@
   #sq6{
       width:30vw;
       height:30vh;
-      border:1px white solid;
+      border:1px yellow solid;
       animation-name:anim6;
   }
   
@@ -145,9 +170,9 @@
       }
   }
   #sq8{
-      width:30vw;
-      height:30vh;
-      border:1px white solid;
+      width:50vw;
+      height:50vh;
+      border:1px black solid;
       animation-name:anim8;
   }
   
@@ -159,3 +184,49 @@
       }
   }
   
+  @keyframes h1ColorChange{
+      10%{h1ColorChange
+          color:red;
+          transform:translate(2.5);
+      }
+      20%{
+          color:blue;
+      }
+      30%{
+          color:green;
+          
+      }
+      40%{
+          
+        color:yellow;
+      }
+      50%{
+          color:pink;
+      }
+      60%{
+          color:black;
+          
+      }
+      70%{
+          color:white;
+          
+      }
+      80%{
+          color:purple;
+      }
+      90%{
+          color:brown;
+      }
+      100%{
+          color:Aqua;
+      }
+  }
+  
+  @keyframes h1Spin{
+      from{
+        transform:rotateY(0deg);  
+      }
+      to{
+       transform:rotateX(360deg);  
+      }
+  }
